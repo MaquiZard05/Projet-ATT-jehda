@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Projet AT&T spam detector ---
+# Modèles et checkpoints (trop lourds pour GitHub, limite 100 Mo par fichier)
+models/
+results/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
